@@ -1,0 +1,129 @@
+/* This is the style sheet for my google homepage */
+
+#pageWrapper {
+    background-color: white;
+}
+.topBar {
+    
+    margin-top: 0px;
+    color: rgba(0,0,0,0.87); 
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+    position: static;
+}
+a {
+    text-decoration: none;
+}
+.signIn{
+    border: transparent;
+    background-color: rgb(66,133,244);
+    color: white;
+    border-radius: 2px;
+    line-height: 28px;
+    padding: 0 12px;
+    font-size: 13px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+    
+}
+li a {
+    
+    color: rgba(0,0,0,0.87);
+    margin: auto;
+    padding-top: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#rightAlign {
+    float: right;
+}
+
+#searchImage {
+    display: flex;
+    padding: 10px;
+    max-width: 75%;
+    max-height: 75% ;
+}
+
+h1 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    }
+
+#navigationBar {
+    display: flex;
+    margin-top: 35px;
+    height: 40px;
+    width: 500px;
+    background-color: white;
+    border: solid rgb(218, 216, 216);
+    border-width: 1px;
+    border-radius: 25px;
+}
+
+#logo {
+    width:272px;
+    height: auto;
+    padding-top: 109px;
+}
+input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    width: 80%;
+
+}
+
+#buttons {
+    padding-top: 10px;
+}
+
+.apps {
+    background-image: url("Assets/googleAppLogo.png";
+    background-size: 528px 68px;
+    box-sizing: content-box;
+    display: block;
+    float: none;
+    width: 336;
+    height: 140;
+    position: static;
+
+}
+
+button.buttonStyle {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+button.buttonStyle:hover  {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;;
+   }
+
+#language {
+    display: inline-block;
+    line-height: 28px;  font-size: small;
+    color: #202124;
+}
