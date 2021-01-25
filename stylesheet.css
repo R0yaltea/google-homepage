@@ -29,7 +29,7 @@ ul {
     list-style-type: none;
 }
 li {
-    display: inline;
+    display: inline-block;
     
 }
 li a {
@@ -90,16 +90,8 @@ input {
     padding-top: 10px;
 }
 
-.apps {
-    background-image: url("Assets/googleAppLogo.png";
-    background-size: 528px 68px;
-    box-sizing: content-box;
-    display: block;
-    float: none;
-    width: 336;
-    height: 140;
-    position: static;
-
+.apps img{
+    float: left;
 }
 
 button.buttonStyle {
