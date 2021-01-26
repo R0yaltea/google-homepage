@@ -36,7 +36,7 @@ li a {
     
     color: rgba(0,0,0,0.87);
     margin: auto;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-right: 5px;
     font-size: 13px;
     text-decoration: none;
@@ -92,6 +92,8 @@ input {
 
 .apps img{
     float: left;
+    padding: 5px;
+
 }
 
 button.buttonStyle {
